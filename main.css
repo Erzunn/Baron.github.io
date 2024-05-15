@@ -1,0 +1,81 @@
+.t1{
+    border: 5px solid;
+    font-size: 10px;
+
+}
+
+  
+  body {
+    background-image: url('Image/abstrait-numerique-grille-fond-noir\ \(1\).jpg');
+    background-size: cover; /* Ajustez la taille de l'image au conteneur */
+    background-repeat: no-repeat; /* Empêchez la répétition de l'image */
+    
+    
+  }
+  
+  .conteneur {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Cela permet de centrer verticalement sur toute la hauteur de la fenêtre */
+    color: white;
+  }
+
+.paragraph{
+/* whtite texte */
+color: white;
+font-style: oblique;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Couleur de base en vert */
+.bouton {
+  color: green;
+  text-decoration: none; /* Supprime les soulignements par défaut des liens */
+}
+
+/* Changement de couleur au survol (orange) */
+.bouton:hover {
+  color: orange;
+}
+
+/* Changement de couleur au clic (rouge) */
+.bouton:active {
+  color: red;
+}
+
+.votre-image {
+  display: flex;
+  max-width: 100%; /* La largeur maximale sera de 100% de son contenant */
+  height: auto; /* Ajuste la hauteur proportionnellement à la largeur */
+  margin-top: 20px; /* Ajuste l'écart supérieur en conséquence */
+}
+
+/* Utilisation de media queries pour ajuster le comportement à des largeurs d'écran spécifiques */
+@media screen and (max-width: 300px) {
+  .votre-image {
+    margin-top: 10px; /* Réduire l'écart supérieur pour les écrans plus petits */
+  }
+}
+
+
+  
+.jumbotron{
+	background-color:  #d9bdc8;
+	text-align: center;
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+
+.offcanvas-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
